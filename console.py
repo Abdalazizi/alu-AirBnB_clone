@@ -2,6 +2,7 @@
 This module provides a few simple mathematical utility functions.
 """
 
+
 def add_numbers(first_number: int, second_number: int) -> int:
     """
     Returns the sum of two integers.
@@ -9,12 +10,13 @@ def add_numbers(first_number: int, second_number: int) -> int:
     Args:
         first_number: The first number.
         second_number: The second number.
-    
+
     Returns:
         The sum of the two numbers.
     """
     total = first_number + second_number
     return total
+
 
 def calculate_average(numbers: list) -> float:
     """
@@ -33,6 +35,7 @@ def calculate_average(numbers: list) -> float:
     average = total_sum / len(numbers)
     return average
 
+
 def main():
     """
     This is the main function that demonstrates the math functions.
@@ -47,6 +50,7 @@ def main():
     my_list_of_numbers = [10, 20, 30, 40, 50]
     average_result = calculate_average(my_list_of_numbers)
     print(f"The average of {my_list_of_numbers} is {average_result}")
+
 
 if __name__ == "__main__":
     main()
