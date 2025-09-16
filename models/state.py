@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""Defines the State class."""
+"""
+Defines the State class, which inherits from BaseModel.
+"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Represent a state.
+    """
+    Represents a State in the HBnB project.
+
     Attributes:
         name (str): The name of the state.
     """
 
-    name = ""
+    name: str = ""
