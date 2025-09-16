@@ -65,7 +65,6 @@ $
 All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
 
 ## Authors:
-
-- [Innocent Tito Muvunyi](https://github.com/itmuvunyi)
-- [Ashley Mutoni](https://github.com/)
+- [Twariki Abdalazizi](https://github.com/Abdalazizi/)
+- [Seth Iradukunda](https://github.com/seth-3)
 ![HBNB Logo](hbnb_logo.png)
